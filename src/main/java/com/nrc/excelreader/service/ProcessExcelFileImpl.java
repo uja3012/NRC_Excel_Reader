@@ -37,9 +37,10 @@ public class ProcessExcelFileImpl {
             String fileExtension = FilenameUtils.getExtension(pathToInputFile);
 
             if(!fileExtension.equalsIgnoreCase(String.valueOf(FileExtensionEnum.XLSX))){
-                throw new InvalidFormatException("file is not in xslx format.");
+                throw new InvalidFormatException("file is not in .xslx format.");
             }
 
+            //(Microsoft Excel 2007 or later) OPCPackage uses Open office XML-based file formats, such as .docx, .xlsx, and .pptx
             OPCPackage fileOpcPkg = OPCPackage.open(new File(pathToInputFile));
 
             XSSFWorkbook workbookToRead = new XSSFWorkbook(fileOpcPkg);

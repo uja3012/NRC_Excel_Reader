@@ -2,6 +2,9 @@
 This Command line application written in Java & build with maven to 
 read data from only .xlsx file with multiple sheets and send data to apis.
 
+#### Apache POI Library used for reading file as below
+![img_1.png](img_1.png)
+
 #### API Request body accepts a payload of an array of:
     {
     name: string;
@@ -61,3 +64,6 @@ application.properties file is important to update before executing batch/jar fi
     "address": "765 Passeig de Gràcia, Barcelona, Spain 08008",
     "phone_number": "+971 4 234 5678"
     },
+
+##### Resources Used :
+https://poi.apache.org/components/spreadsheet/quick-guide.html#ReadWriteWorkbook
