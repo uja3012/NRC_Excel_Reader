@@ -1,11 +1,16 @@
 package com.nrc.excelreader.util;
 
 import com.nrc.excelreader.logger.SimpleLogger;
-
-import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
+
+/**
+ * Custom configuration
+ * Date : 28.08.2023
+ * Version : 1.0 (Initial Version)
+ * @author Ujwala Vanve
+ */
 
 public class CustomConfig {
 

@@ -42,6 +42,15 @@ public class ApiService {
                 e.printStackTrace();
                 return;
             }
+
+        // Used to show organized JSON data
+        logger.info(" ------------> Logger Output <-----------");
+        logger.info(" ----> Organized data from XLS sheet is printed below <------ ");
+        Gson gson = new GsonBuilder().setPrettyPrinting().create();
+        JsonElement jsonElement = JsonParser.parseString(postData);
+        String prettyJson = gson.toJson(jsonElement);
+        logger.info(prettyJson);
+
         HttpRequest request = HttpRequest.newBuilder()
                         .uri(URI.create(apiURI))
                         .header("Content-type", "application/json")
@@ -51,19 +60,12 @@ public class ApiService {
                         .header("NRC-API-KEY", nrcApiKey)
                         .POST(HttpRequest.BodyPublishers.ofString(postData))
                         .build();
-                // Used to show organized JSON data
-                logger.info(" ------------> Logger Output <-----------");
-                logger.info(" ----> Organized data from XLS sheet is printed below <------ ");
-                Gson gson = new GsonBuilder().setPrettyPrinting().create();
-                JsonElement jsonElement = JsonParser.parseString(postData);
-                String prettyJson = gson.toJson(jsonElement);
-                logger.info(prettyJson);
         try {
                 httpClient.sendAsync(request, HttpResponse.BodyHandlers.ofString())
                         .thenApply(HttpResponse::body)
                         .thenAccept(System.out::println)
                         .join();
-                //logger.info("File is requested for upload to : - " +request.headers());
+                logger.info("File is requested for upload to : - " +request.headers() + request.bodyPublisher());
         } catch (Exception e) {
             logger.error("HTTP Connection Issue, Kindly Check URl : "+e);
             e.printStackTrace();

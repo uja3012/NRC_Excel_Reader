@@ -1,6 +1,6 @@
 package com.nrc.excelreader;
 
-import com.nrc.excelreader.service.ExcelFileReaderImpl;
+import com.nrc.excelreader.service.ProcessExcelFileImpl;
 import com.nrc.excelreader.repository.DataCollection;
 import com.nrc.excelreader.util.CustomConfig;
 
@@ -11,7 +11,7 @@ public class Application {
         /* Application reads System property i.e. Provide command as below when running from CLI
         java -Dpath.properties=<fullyQualifiedPathOfPropertyFile> -jar <jarfileName>*/
 
-            new ExcelFileReaderImpl(CustomConfig.properties.getProperty("xlsx.location"),new DataCollection());
+            new ProcessExcelFileImpl(new DataCollection()).processFile(CustomConfig.properties.getProperty("xlsx.location"));
 
         }
 }

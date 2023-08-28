@@ -1,5 +1,8 @@
 package com.nrc.excelreader.model;
 
+import com.google.gson.annotations.Expose;
+import com.google.gson.annotations.SerializedName;
+
 /**
  * Model/Entity Class
  * Date : 27.08.2023
@@ -9,9 +12,20 @@ package com.nrc.excelreader.model;
 
 public class Participant {
 
+    @SerializedName("name")
+    @Expose
     private String name;
+
+    @SerializedName("date_of_birth")
+    @Expose
     private String date_of_birth;
+
+    @SerializedName("address")
+    @Expose
     private String address;
+
+    @SerializedName("phone_number")
+    @Expose
     private String phone_number;
 
     public Participant(String name) {
@@ -22,7 +36,7 @@ public class Participant {
     }
 
     public String getName() {
-        return name;
+        return this.name;
     }
 
     public void setName(String name) {
@@ -30,7 +44,7 @@ public class Participant {
     }
 
     public String getDateOfBirth() {
-        return date_of_birth;
+        return this.date_of_birth;
     }
 
     public void setDateOfBirth(String date_of_birth) {
@@ -38,7 +52,7 @@ public class Participant {
     }
 
     public String getAddress() {
-        return address;
+        return this.address;
     }
 
     public void setAddress(String address) {
@@ -46,7 +60,7 @@ public class Participant {
     }
 
     public String getPhoneNumber() {
-        return phone_number;
+        return this.phone_number;
     }
 
     public void setPhoneNumber(String phone_number) {
