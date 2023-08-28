@@ -1,27 +1,29 @@
 # NRC Excel Reader
-This Command line application written in Java 17 & build with maven to 
+This Command line application written in Java & build with maven to 
 read data from only .xlsx file with multiple sheets and send data to apis.
-####API Request body accepts a payload of an array of:
+
+#### API Request body accepts a payload of an array of:
     {
     name: string;
     date_of_birth: ISO-8601 string;
     address: string;
     phone_number: string;
     }
-####This CLI Application comes with 
+#### This CLI Application repo comes with 
     1. Source Code,
     2. executable jar,
     3. sample Windows batch file,
     4. sample ExcelSheet file 
     5. application properties.
+please check released_cli folder for more details.
 
 Command Line Application expects JRE & System property parameter (location of properties file) in command 
 as shown below when executing from CLI
-####java -Dpath.properties=fullyQualifiedPathOfPropertyFile -jar jarfileName
+#### java -Dpath.properties=fullyQualifiedPathOfPropertyFile -jar jarfileName
 
 application.properties file is important to update before executing batch/jar file
 
-####application.properties looks like below :
+#### application.properties looks like below :
 #### 
     #Mon Aug 28 17:37:58 SEPT 2023
     #api.URI=https://test-api.not.nrc.no/project-participants
@@ -29,12 +31,12 @@ application.properties file is important to update before executing batch/jar fi
     #xlsx.location=C:\\NRC_Excel_Reader\\src\\main\\resources\\project_participants.xlsx
 
 
-####Note : 
+#### Note : 
     Currently this utility is only supporting to specific format of .xlsx sheet 
     which is provided in the source code resources folder. We can work on this to 
     make ot more user friendly but needs time & efforts.
 
-#####Example of Sheet Data mapped
+##### Example of Sheet Data mapped
     {
     "name": "Sophie Martin",
     "date_of_birth": "2022-11-03",
