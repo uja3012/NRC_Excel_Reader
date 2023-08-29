@@ -1,0 +1,307 @@
+[main] INFO com.nrc.excelreader.util.CustomConfig - ------>>>>> XLS SHEET DATA READER <<<<-------
+[main] INFO com.nrc.excelreader.util.CustomConfig - ----> External property file is loaded from location --->: C:\\Users\\47939\\bat\\properties\\application.properties
+[main] INFO com.nrc.excelreader.service.ApiService -  ------------> Logger Output <-----------
+[main] INFO com.nrc.excelreader.service.ApiService -  ----> Organized data from XLS sheet is printed below <------ 
+[main] INFO com.nrc.excelreader.service.ApiService - [
+  {
+    "name": "Emily Smith",
+    "date_of_birth": "2023-07-15",
+    "address": "123 Rue de la Fontaine, Paris, France 75001",
+    "phone_number": "+1 555-123-4567"
+  },
+  {
+    "name": "Juan Rodriguez",
+    "date_of_birth": "2024-02-28",
+    "address": "456 Via Roma, Rome, Italy 00118",
+    "phone_number": "+44 20 7123 4567"
+  },
+  {
+    "name": "Sophie Martin",
+    "date_of_birth": "2022-11-03",
+    "address": "789 Calle del Mar, Barcelona, Spain 08001",
+    "phone_number": "+61 2 8765 4321"
+  },
+  {
+    "name": "Александр Петров",
+    "date_of_birth": "2023-10-09",
+    "address": "987 Amstelstraat, Amsterdam, Netherlands 1012",
+    "phone_number": "+1 416-555-7890"
+  },
+  {
+    "name": "李娟",
+    "date_of_birth": "2024-05-20",
+    "address": "654 Prinzessinnenweg, Berlin, Germany 10785",
+    "phone_number": "+49 30 98765432"
+  },
+  {
+    "name": "محمد علي",
+    "date_of_birth": "2022-07-12",
+    "address": "321 Calle de la Palma, Madrid, Spain 28004",
+    "phone_number": "+33 1 2345 6789"
+  },
+  {
+    "name": "田中夏美",
+    "date_of_birth": "2023-03-18",
+    "address": "567 Kungsgatan, Stockholm, Sweden 111 43",
+    "phone_number": "+81 3-1234-5678"
+  },
+  {
+    "name": "Maximilian Müller",
+    "date_of_birth": "2024-02-08",
+    "address": "890 Avenida Paulista, São Paulo, Brazil 01310-100",
+    "phone_number": "+55 21 98765-4321"
+  },
+  {
+    "name": "박지영",
+    "date_of_birth": "2023-01-11",
+    "address": "234 Queen\u0027s Road, London, United Kingdom SW1A 1AA",
+    "phone_number": "+27 11 876 5432"
+  },
+  {
+    "name": "Ελένη Παπαδοπούλου",
+    "date_of_birth": "2024-06-24",
+    "address": "876 Viale di Trastevere, Rome, Italy 00153",
+    "phone_number": "+91 11 2345 6789"
+  },
+  {
+    "name": "נועה כהן",
+    "date_of_birth": "2023-04-09",
+    "address": "543 Nørrebrogade, Copenhagen, Denmark 2200",
+    "phone_number": "+86 10 1234 5678"
+  },
+  {
+    "name": "राजेश शर्मा",
+    "date_of_birth": "2022-10-16",
+    "address": "210 Calea Victoriei, Bucharest, Romania 010063",
+    "phone_number": "+7 495 123-45-67"
+  },
+  {
+    "name": "สุชาดา วงศ์สวัสดิ์",
+    "date_of_birth": "2023-01-30",
+    "address": "765 Passeig de Gràcia, Barcelona, Spain 08008",
+    "phone_number": "+971 4 234 5678"
+  },
+  {
+    "name": "Яна Смирнова",
+    "date_of_birth": "2022-06-11",
+    "address": "432 Corso Buenos Aires, Milan, Italy 20124",
+    "phone_number": "+52 55 9876 5432"
+  },
+  {
+    "name": "김민준",
+    "date_of_birth": "2023-09-13",
+    "address": "109 Avenida da Liberdade, Lisbon, Portugal 1250-140",
+    "phone_number": "+65 6123 4567"
+  },
+  {
+    "name": "張維",
+    "date_of_birth": "2024-05-25",
+    "address": "876 Av. Paulista, São Paulo, Brazil 01310-100",
+    "phone_number": "+39 02 9876 5432"
+  },
+  {
+    "name": "Maria Papadopoulou",
+    "date_of_birth": "2023-01-07",
+    "address": "543 Kurfürstendamm, Berlin, Germany 10707",
+    "phone_number": "+90 212 345 6789"
+  },
+  {
+    "name": "Hiroshi Tanaka",
+    "date_of_birth": "2022-12-22",
+    "address": "987 Bahnhofstrasse, Zürich, Switzerland 8001",
+    "phone_number": "+82 2-9876-5432"
+  },
+  {
+    "name": "Leila Ahmed",
+    "date_of_birth": "2024-08-03",
+    "address": "210 Niederdorfstrasse, Zürich, Switzerland 8001",
+    "phone_number": "+966 11 234 5678"
+  },
+  {
+    "name": "Somchai Srisawat",
+    "date_of_birth": "2023-02-17",
+    "address": "876 Rue Neuve, Brussels, Belgium 1000",
+    "phone_number": "+34 91 234 56 78"
+  },
+  {
+    "name": "李明",
+    "date_of_birth": "2022-08-23",
+    "address": "123 Bloor Street, Toronto, Canada M5S 1T8",
+    "phone_number": "+91 22 3456 7890"
+  },
+  {
+    "name": "Maria Kim",
+    "date_of_birth": "",
+    "address": "123 Fifth Avenue, New York, NY 10003, USA",
+    "phone_number": "+81 6-7890-1234"
+  },
+  {
+    "name": "John Smith",
+    "date_of_birth": "2023-06-15",
+    "address": "456 Paseo de la Reforma, Mexico City, Mexico 06500",
+    "phone_number": "+86 21 8765 4321"
+  },
+  {
+    "name": "花田 雄一",
+    "date_of_birth": "",
+    "address": "456 Wenceslas Square, Prague, Czech Republic 110 00",
+    "phone_number": "+91 40 5678 9012"
+  },
+  {
+    "name": "アレクサンドラ イワノヴ",
+    "date_of_birth": "2024-03-12",
+    "address": "789 Calle 8 de Octubre, Montevideo, Uruguay 11200",
+    "phone_number": "+33 4 5678 9012"
+  },
+  {
+    "name": "Ahmed Ali",
+    "date_of_birth": "",
+    "address": "789 Königstraße, Stuttgart, Germany 70173",
+    "phone_number": "+49 711 2345678"
+  },
+  {
+    "name": "محمد علي",
+    "date_of_birth": "2023-10-17",
+    "address": "987 Tverskaya Street, Moscow, Russia 125009",
+    "phone_number": "+44 161 234 5678"
+  },
+  {
+    "name": "Анна Петрова",
+    "date_of_birth": "",
+    "address": "987 Gran Vía, Madrid, Spain 28013",
+    "phone_number": "+33 2 3456 7890"
+  },
+  {
+    "name": "Maria García",
+    "date_of_birth": "2022-02-24",
+    "address": "654 Avenida dos Aliados, Porto, Portugal 4000-065",
+    "phone_number": "+49 89 12345678"
+  },
+  {
+    "name": "田中 信子",
+    "date_of_birth": "",
+    "address": "654 Russell Square, London, United Kingdom WC1B 5BE",
+    "phone_number": "+44 131 567 8901"
+  },
+  {
+    "name": "田中 太郎 ",
+    "date_of_birth": "2024-10-07",
+    "address": "321 Karl Johans gate, Oslo, Norway 0159",
+    "phone_number": "+61 8 7654 3210"
+  },
+  {
+    "name": "송민준 ",
+    "date_of_birth": "",
+    "address": "321 Bahnhofstrasse, Zurich, Switzerland 8001",
+    "phone_number": "+86 755 2345 6789"
+  },
+  {
+    "name": "송민주",
+    "date_of_birth": "2023-05-15",
+    "address": "567 Rua Augusta, Lisbon, Portugal 1100-048",
+    "phone_number": "+55 31 98765-4321"
+  },
+  {
+    "name": "Εleni Papadopoulos",
+    "date_of_birth": "",
+    "address": "567 Red Square, Moscow, Russia 109012",
+    "phone_number": "+61 3 4567 8901"
+  },
+  {
+    "name": "Анастасия Петрова ",
+    "date_of_birth": "2024-03-29",
+    "address": "890 Hauptbahnhofstrasse, Zürich, Switzerland 8001",
+    "phone_number": "+82 51-9876-5432"
+  },
+  {
+    "name": "محمد سعيد",
+    "date_of_birth": "",
+    "address": "890 Via Montenapoleone, Milan, Italy 20121",
+    "phone_number": "+55 61 98765-4321"
+  },
+  {
+    "name": "林小美 ",
+    "date_of_birth": "2023-01-11",
+    "address": "234 Avenida de Mayo, Buenos Aires, Argentina C1084ABB",
+    "phone_number": "+39 06 8765 4321"
+  },
+  {
+    "name": "Elena García",
+    "date_of_birth": "",
+    "address": "234 Copacabana Beach, Rio de Janeiro, Brazil 22080-010",
+    "phone_number": "+82 62-9876-5432"
+  },
+  {
+    "name": "Carlos González",
+    "date_of_birth": "2022-12-20",
+    "address": "876 Karlsplatz, Vienna, Austria 1010",
+    "phone_number": "+7 812 345-67-89"
+  },
+  {
+    "name": "安藤 太郎",
+    "date_of_birth": "",
+    "address": "876 La Rambla, Barcelona, Spain 08002",
+    "phone_number": "+39 041 123 4567"
+  },
+  {
+    "name": "王大伟 ",
+    "date_of_birth": "2024-04-09",
+    "address": "543 Jalan Bukit Bintang, Kuala Lumpur, Malaysia 55100",
+    "phone_number": "+971 6 789 1234"
+  },
+  {
+    "name": "Aisha Patel",
+    "date_of_birth": "",
+    "address": "543 Roppongi Hills, Tokyo, Japan 106-6108",
+    "phone_number": "+7 383 123-45-67"
+  },
+  {
+    "name": "Emily Johnson",
+    "date_of_birth": "2023-06-18",
+    "address": "210 Leidseplein, Amsterdam, Netherlands 1017 PS",
+    "phone_number": "+34 93 456 78 90"
+  },
+  {
+    "name": "박지현 ",
+    "date_of_birth": "",
+    "address": "210 Eiffel Tower, Paris, France 75007",
+    "phone_number": "+971 2 345 6789"
+  },
+  {
+    "name": "Яна Смирнова",
+    "date_of_birth": "2022-08-30",
+    "address": "765 Champs-Élysées, Paris, France 75008",
+    "phone_number": "+65 6432 1098"
+  },
+  {
+    "name": "Igor Petrović",
+    "date_of_birth": "",
+    "address": "765 Darling Harbour, Sydney, Australia NSW 2000",
+    "phone_number": "+65 8765 4321"
+  },
+  {
+    "name": "ジェイムズ ウィリアムズ",
+    "date_of_birth": "2023-11-04",
+    "address": "432 Piazza del Duomo, Milan, Italy 20121",
+    "phone_number": "+90 312 678 9012"
+  },
+  {
+    "name": "Fatima Ahmed",
+    "date_of_birth": "2024-09-02",
+    "address": "109 O\u0027Connell Street, Dublin, Ireland D01 T6P6",
+    "phone_number": "+49 511 2345678"
+  },
+  {
+    "name": "Alessandro Rossi",
+    "date_of_birth": "2023-01-25",
+    "address": "876 Siam Paragon, Bangkok, Thailand 10330",
+    "phone_number": "+33 5 4321 9876"
+  },
+  {
+    "name": "张雪芳",
+    "date_of_birth": "2024-07-05",
+    "address": "543 Avenida Paulista, São Paulo, Brazil 01311-000",
+    "phone_number": "+44 20 3456 7890"
+  }
+]
+[main] INFO com.nrc.excelreader.service.ApiService - HTTP Connection Issue, Kindly Check URl : java.util.concurrent.CompletionException: java.net.ConnectException

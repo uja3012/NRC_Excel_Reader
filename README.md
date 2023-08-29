@@ -2,6 +2,16 @@
 This Command line application written in Java & build with maven to 
 read data from only .xlsx file with multiple sheets and send data to apis.
 
+###How to use ?
+    Step 1 : Find Application\nrc-excel-data-upload-cliApp.zip folder in the repo
+    Step 2 : Unzip file & update the application properties 
+    Step 3 : Place excel sheet inside xlsx-Input folder
+    Step 4 : Launch batch file - excel_reader_launcher.bat
+    Step 5 : Check logs inside /logs/output.txt
+
+
+###How it works ?
+ Let's see some core concepts behind its working . .  
 #### Apache POI Library used for reading file as below
 ![img_1.png](img_1.png)
 
@@ -29,15 +39,9 @@ application.properties file is important to update before executing batch/jar fi
 #### application.properties looks like below :
 #### 
     #Mon Aug 28 17:37:58 SEPT 2023
-    #api.URI=https://test-api.not.nrc.no/project-participants
-    #api.NRC-API-KEY=your-nrcapi-key
-    #xlsx.location=C:\\NRC_Excel_Reader\\src\\main\\resources\\project_participants.xlsx
-
-
-#### Note : 
-    Currently this utility is only supporting to specific format of .xlsx sheet 
-    which is provided in the source code resources folder. We can work on this to 
-    make ot more user friendly but needs time & efforts.
+    api.URI=https://test-api.not.nrc.no/project-participants
+    api.NRC-API-KEY=your-nrcapi-key
+    xlsx.location=.\\xlsx-Input\\project_participants.xlsx
 
 ##### Example of Sheet Data mapped
     {
@@ -65,5 +69,10 @@ application.properties file is important to update before executing batch/jar fi
     "phone_number": "+971 4 234 5678"
     },
 
+
+
 ##### Resources Used :
 https://poi.apache.org/components/spreadsheet/quick-guide.html#ReadWriteWorkbook
+
+#### Note :
+    Currently this utility is only supporting to specific format of data provided in the given .xlsx sheet
