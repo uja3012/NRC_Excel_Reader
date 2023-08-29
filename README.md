@@ -1,4 +1,4 @@
-# NRC Excel Reader
+# NRC Excel Uploader
 This command line application written in Java & build with maven to 
 read data from .xlsx file having multiple sheets and sends data to API.
 
