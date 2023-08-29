@@ -1,8 +1,8 @@
 # NRC Excel Reader
-This Command line application written in Java & build with maven to 
-read data from only .xlsx file with multiple sheets and send data to apis.
+This command line application written in Java & build with maven to 
+read data from .xlsx file having multiple sheets and sends data to API.
 
-###How to use ?
+### How to use ?
     Step 1 : Find Application\nrc-excel-data-upload-cliApp.zip folder in the repo
     Step 2 : Unzip file & update the application properties 
     Step 3 : Place excel sheet inside xlsx-Input folder
@@ -10,7 +10,7 @@ read data from only .xlsx file with multiple sheets and send data to apis.
     Step 5 : Check logs inside /logs/output.txt
 
 
-###How it works ?
+### How it works ?
  Let's see some core concepts behind its working . .  
 #### Apache POI Library used for reading file as below
 ![img_1.png](img_1.png)
